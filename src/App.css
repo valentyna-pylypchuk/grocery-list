@@ -1,0 +1,64 @@
+.app {
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 25px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-color: #65aa06;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-add {
+  background: #65aa06;
+  margin-top: 5px;
+}
+
+.btn-delete {
+  background: #d30100;
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  input {
+    flex: 1;
+    padding: 8px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
